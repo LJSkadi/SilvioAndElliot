@@ -7,7 +7,7 @@
     "dev": "DEBUG=app:* nodemon ./bin/www"
   },
   "dependencies": {
-    "bcrypt": "^1.0.3",
+    "bcrypt": "^2.0.1",
     "body-parser": "~1.18.2",
     "connect-ensure-login": "^0.1.1",
     "connect-flash": "^0.1.1",
@@ -26,5 +26,17 @@
   },
   "devDependencies": {
     "nodemon": "^1.12.1"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LJSkadi/SilvioAndElliot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LJSkadi/SilvioAndElliot/issues"
+  },
+  "homepage": "https://github.com/LJSkadi/SilvioAndElliot#readme",
+  "description": ""
 }
